@@ -1,5 +1,12 @@
 package com.retail.store.rest.util;
 
+/**
+ * @author Syed Sheeraz Shaukat
+ * 
+ * Constant Class for Discount
+ *
+ */
+
 public class DiscountConstant {
 
 	public static final String STORE_EMPLOYEE = "store";

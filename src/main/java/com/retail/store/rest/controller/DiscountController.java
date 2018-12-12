@@ -20,7 +20,7 @@ import com.retail.store.rest.util.CustomErrorType;
 /**
  * @author Syed Sheeraz Shaukat
  * 
- * 
+ * DiscountController Controller Class
  *
  */
 @RestController

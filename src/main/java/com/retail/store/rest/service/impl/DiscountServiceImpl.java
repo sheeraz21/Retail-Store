@@ -8,6 +8,14 @@ import com.retail.store.rest.controller.DiscountController;
 import com.retail.store.rest.service.IDiscountService;
 import com.retail.store.rest.util.DiscountConstant;
 
+/**
+ * @author Syed Sheeraz Shaukat
+ * 
+ * Implementation class of DiscountService Interface
+ *
+ */
+
+
 @Service
 public class DiscountServiceImpl implements IDiscountService {
 
