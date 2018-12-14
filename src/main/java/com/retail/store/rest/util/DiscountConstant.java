@@ -26,5 +26,9 @@ public class DiscountConstant {
 	public static final Double ZERO_PERCENT = 0.0;
 
 	public static final Double HUNDRED = 100.0;
+	
+	private DiscountConstant (){
+		
+	}
 
 }
