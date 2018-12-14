@@ -18,3 +18,6 @@ Git, Github for source code management.
 
 _____________________________________________________________________________________________________________________________________
 
+UML Diagram:
+
+![GitHub Logo](bank-app/retail-storeapp.png)
