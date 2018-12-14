@@ -1,8 +1,9 @@
 # Retail-Store
+_____________________________________________________________________________________________________________________________________
 Retail Store Application for calculating the discount 
 
-Coding exercise:
-On a retail website, the following discounts apply:
+Created Restful application for calculating the discount for retail store product based on the below condition 
+
 1. If the user is an employee of the store, he gets a 30% discount
 2. If the user is an affiliate of the store, he gets a 10% discount
 3. If the user has been a customer for over 2 years, he gets a 5% discount.
@@ -10,3 +11,10 @@ On a retail website, the following discounts apply:
 as a discount).
 5. The percentage based discounts do not apply on groceries.
 6. A user can get only one of the percentage based discounts on a bill.
+
+Technology : It is Spring Boot based restful application, below are the technology i used for developing the Retail store app.
+Java, Spring Boot, Spring Rest, Spring Core, Actuator for api health check, devtools, Junit for testing, postman, Heruku cloud  for deployment
+Git, Github for source code management.
+
+_____________________________________________________________________________________________________________________________________
+
