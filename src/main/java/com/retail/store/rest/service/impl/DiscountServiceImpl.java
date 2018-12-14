@@ -11,10 +11,9 @@ import com.retail.store.rest.util.DiscountConstant;
 /**
  * @author Syed Sheeraz Shaukat
  * 
- * Implementation class of DiscountService Interface
+ *         Implementation class of DiscountService Interface
  *
  */
-
 
 @Service
 public class DiscountServiceImpl implements IDiscountService {
@@ -79,12 +78,20 @@ public class DiscountServiceImpl implements IDiscountService {
 
 	public static Double getDefaultDiscount(Double price) {
 		Double discount = 0.0;
-		if (null != price && price >= DiscountConstant.HUNDRED) {
-			discount = (price * DiscountConstant.FIVE_PERCENT)
+
+		Double roundOf = (double) round(price);
+
+		if (null != roundOf && roundOf >= DiscountConstant.HUNDRED) {
+			discount = (roundOf * DiscountConstant.FIVE_PERCENT)
 					/ (DiscountConstant.HUNDRED);
 
 			logger.info("default discoount " + discount);
 		}
 		return discount;
 	}
+
+	public static int round(Double num) {
+		return (int) (Math.floor(num / DiscountConstant.HUNDRED) * DiscountConstant.HUNDRED);
+	}
+
 }
