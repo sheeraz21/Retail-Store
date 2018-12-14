@@ -18,7 +18,17 @@ Git, Github for source code management.
 
 _____________________________________________________________________________________________________________________________________
 
+Getting Started
+Requirements:
 
+Apache Maven 3.3
+Java 1.8,Spring core,Spring Boot,Spring Rest,Actuator,devtools,Junit
+Clone and build the project
+
+    git clone https://github.com/sheeraz21/Retail-Store.git
+    cd Retail-Store
+    mvn install
+    mvn clean
 
 
 
