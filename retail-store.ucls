@@ -14,7 +14,7 @@
   <class id="2" language="java" name="com.retail.store.rest.controller.DiscountController" project="bank-app" 
     file="/bank-app/src/main/java/com/retail/store/rest/controller/DiscountController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="100" width="251" x="155" y="200"/>    
+    <position height="125" width="256" x="156" y="154"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -43,7 +43,7 @@
   <class id="5" language="java" name="com.retail.store.rest.service.impl.DiscountServiceImpl" project="bank-app" 
     file="/bank-app/src/main/java/com/retail/store/rest/service/impl/DiscountServiceImpl.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="103" width="224" x="413" y="200"/>    
+    <position height="103" width="224" x="452" y="160"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -61,8 +61,8 @@
   </class>  
   <class id="7" language="java" name="com.retail.store.rest.util.DiscountConstant" project="bank-app" 
     file="/bank-app/src/main/java/com/retail/store/rest/util/DiscountConstant.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="19" y="255"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="217" width="171" x="-66" y="134"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -72,33 +72,49 @@
     project="bank-app" 
     file="/bank-app/src.main.test/com/retail/store/rest/service/impl/test/DiscountServiceImplTest.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="143" width="233" x="422" y="333"/>    
+    <position height="143" width="233" x="231" y="321"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="9">    
+  <dependency id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="10">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="10" name="iDiscountServies"/>      
-      <multiplicity id="11" minimum="0" maximum="1"/>    
+      <attribute id="11" name="iDiscountServies"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="12">    
+  <association id="13">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="13" name="iDiscountServies"/>      
-      <multiplicity id="14" minimum="0" maximum="1"/>    
+      <attribute id="14" name="iDiscountServies"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="15">    
+  <dependency id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="18">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="4"/>  
   </realization>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
