@@ -34,7 +34,7 @@ public class DiscountController {
 			.getLogger(DiscountController.class);
 
 	@RequestMapping(value = "/discount", method = RequestMethod.GET)
-	public ResponseEntity<?> getUser(@RequestParam String item,
+	public ResponseEntity<?> getDiscount(@RequestParam String item,
 			@RequestParam String discountType, @RequestParam Double price) {
 
 		logger.info("Fetching discount details {}" + item);
