@@ -62,3 +62,14 @@ ________________________________________________________________________________
 UML Diagram:
 
 ![UML DIAGRAM](https://github.com/sheeraz21/Retail-Store/blob/master/retail-storeapp.png)
+
+_________________________________________________________________________________________________________________
+Sample Input and Output 
+Input					                Output
+Item	  DiscountTpye	Price			FinalDiscount
+Mobile	  affiliate	    990			        144.0
+groceries affiliate	    990			         0.0
+Mobile	  store	        990		            342.0
+Mobile	  Two Year Old	990			        94.5
+
+
