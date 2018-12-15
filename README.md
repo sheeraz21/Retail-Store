@@ -65,11 +65,16 @@ UML Diagram:
 
 _________________________________________________________________________________________________________________
 Sample Input and Output 
-Input					                Output
-Item	  DiscountTpye	Price			FinalDiscount
-Mobile	  affiliate	    990			        144.0
-groceries affiliate	    990			         0.0
-Mobile	  store	        990		            342.0
-Mobile	  Two Year Old	990			        94.5
+
+|Input|					               |Output|
+|-----------------------|----------------------------|
+
+|Item|	 |DiscountTpye|	   |Price|			|FinalDiscount|
+|-----------------------|----------------------------|
+
+|Mobile|    |affiliate|	        |990|		 |144.0|
+|groceries| |affiliate|	        |990|		 |0.0|
+|Mobile|	|store|	            |990|		 |342.0|
+|Mobile|	|Two Year Old|	    |990|		 |94.5|
 
 
