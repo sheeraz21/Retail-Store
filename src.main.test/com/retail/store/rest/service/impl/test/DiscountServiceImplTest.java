@@ -9,13 +9,10 @@ import org.junit.runners.BlockJUnit4ClassRunner;
 import com.retail.store.rest.service.impl.DiscountServiceImpl;
 import com.retail.store.rest.util.DiscountConstant;
 
-
-
-
 /**
  * @author Syed Sheeraz Shaukat
  * 
- * Junit test case for discount service 
+ *         Junit test case for discount service
  *
  */
 @RunWith(value = BlockJUnit4ClassRunner.class)
@@ -44,7 +41,8 @@ public class DiscountServiceImplTest extends TestCase {
 	@Test(expected = AssertionError.class)
 	public void testingGetFinalDiscountWithThirtyPercentTest() {
 
-		assertEquals("Here is test for Thirty percent Discount Check Result: " + 42.0,
+		assertEquals(
+				"Here is test for Thirty percent Discount Check Result: " + 42.0,
 				iDiscountServies.getFinalDiscount("", 120.00,
 						DiscountConstant.STORE_EMPLOYEE));
 
@@ -53,7 +51,8 @@ public class DiscountServiceImplTest extends TestCase {
 	@Test(expected = AssertionError.class)
 	public void testingGetFinalDiscountWithTenPercentTest() {
 
-		assertEquals("Here is test for Ten percent Discount Check Result: " + 18.0,
+		assertEquals(
+				"Here is test for Ten percent Discount Check Result: " + 18.0,
 				iDiscountServies.getFinalDiscount("", 120.00,
 						DiscountConstant.AFFILIATE_CUSTOMER));
 
@@ -62,7 +61,8 @@ public class DiscountServiceImplTest extends TestCase {
 	@Test(expected = AssertionError.class)
 	public void testingGetFinalDiscountWithFivePercentTest() {
 
-		assertEquals("Here is test for Five percent Discount Check Result: " + 12.0,
+		assertEquals(
+				"Here is test for Five percent Discount Check Result: " + 12.0,
 				iDiscountServies.getFinalDiscount("", 120.00,
 						DiscountConstant.PREMIUM_CUSTOMER));
 

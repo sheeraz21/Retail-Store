@@ -14,19 +14,16 @@ import com.retail.store.rest.domain.DiscountDO;
 import com.retail.store.rest.service.IDiscountService;
 import com.retail.store.rest.util.CustomErrorType;
 
-
-
-
 /**
  * @author Syed Sheeraz Shaukat
  * 
- * DiscountController Controller Class
+ *         DiscountController Controller Class
  *
  */
 @RestController
 @RequestMapping("/retail")
 public class DiscountController {
-	
+
 	@Autowired
 	IDiscountService iDiscountServies;
 
@@ -38,16 +35,18 @@ public class DiscountController {
 			@RequestParam String discountType, @RequestParam Double price) {
 
 		logger.info("Fetching discount details {}" + item);
-		
-		Double finalDiscount ;
+
+		Double finalDiscount;
 		DiscountDO discountDO = new DiscountDO();
-		
-		finalDiscount = iDiscountServies.getFinalDiscount(item, price, discountType);
+
+		finalDiscount = iDiscountServies.getFinalDiscount(item, price,
+				discountType);
 		discountDO.setFinalDiscount(finalDiscount);
 		if (finalDiscount == null) {
-			
-			return new ResponseEntity(new CustomErrorType("Unable to find discount "  + " not found."),
-                    HttpStatus.NOT_FOUND);
+
+			return new ResponseEntity(new CustomErrorType(
+					"Unable to find discount " + " not found."),
+					HttpStatus.NOT_FOUND);
 		}
 		return new ResponseEntity<>(discountDO, HttpStatus.OK);
 	}

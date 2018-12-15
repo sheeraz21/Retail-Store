@@ -6,14 +6,15 @@ import org.springframework.stereotype.Service;
 /**
  * @author Syed Sheeraz Shaukat
  * 
- * Discount Service Interface
+ *         Discount Service Interface
  *
  */
 
 @Component
 @Service
 public interface IDiscountService {
-	
-	public Double getFinalDiscount(String item, Double price , String discountType);
+
+	public Double getFinalDiscount(String item, Double price,
+			String discountType);
 
 }

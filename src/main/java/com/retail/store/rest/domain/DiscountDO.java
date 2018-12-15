@@ -5,28 +5,23 @@ import java.io.Serializable;
 /**
  * @author Syed Sheeraz Shaukat
  * 
- * Domain class to calculate the discount 
+ *         Domain class to calculate the discount
  *
  */
 
 public class DiscountDO implements Serializable {
 
-
 	private static final long serialVersionUID = 1L;
 
-
 	private Double finalDiscount;
-
 
 	public Double getFinalDiscount() {
 		return finalDiscount;
 	}
 
-
 	public void setFinalDiscount(Double finalDiscount) {
 		this.finalDiscount = finalDiscount;
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -36,7 +31,6 @@ public class DiscountDO implements Serializable {
 				+ ((finalDiscount == null) ? 0 : finalDiscount.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -55,10 +49,9 @@ public class DiscountDO implements Serializable {
 		return true;
 	}
 
-
 	@Override
 	public String toString() {
 		return "DiscountDO [finalDiscount=" + finalDiscount + "]";
 	}
-	
+
 }
