@@ -18,8 +18,9 @@ Getting Started
 Requirements:
 Checkout code from below location
 
-git clone https://github.com/sheeraz21/Retail-Store.git 
- cd Retail-Store
+1. git clone 
+2. https://github.com/sheeraz21/Retail-Store.git 
+3. cd Retail-Store
 
 Run Below Command 
 1. mvn install
