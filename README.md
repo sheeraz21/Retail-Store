@@ -61,4 +61,4 @@ ________________________________________________________________________________
 
 UML Diagram:
 
-![GitHub Logo](bank-app/retail-storeapp.png)
+![UML DIAGRAM](https://github.com/sheeraz21/Retail-Store/blob/master/retail-storeapp.png)
