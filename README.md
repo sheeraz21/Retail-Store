@@ -12,32 +12,29 @@ as a discount).
 5. The percentage based discounts do not apply on groceries.
 6. A user can get only one of the percentage based discounts on a bill.
 
-_____________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________
 
 Getting Started
 Requirements:
+Checkout code from below location
 
-Apache Maven 3.3
-Java 1.8,Spring core,Spring Boot,Spring Rest,Actuator,devtools,Junit
-Clone and build the project
+git clone https://github.com/sheeraz21/Retail-Store.git
+cd Retail-Store
 
-    git clone https://github.com/sheeraz21/Retail-Store.git
-    cd Retail-Store
-    mvn install
-    mvn clean
-
-
-
+Run Below Command 
+mvn install
+mvn clean
 
 I have developed a retail store discount application for calculating the discount.
-For this I have Used:
-1.Java, Spring Boot, Spring Rest, Spring Core.
-2.Actuator for api health check, devtools. 
-3.Junit for testing,
-4.Postman
-5. Heruku cloud for deployment
-6. Git, Github for source code management.
 
+For this I have Used:
+1. **Java**, **Spring Boot**,**Spring Rest**, **Spring Core**.
+2. **Actuator** for api health check, **devtools**. 
+3. **Junit** for testing,
+4. **Postman**
+5. **Heruku** cloud for deployment
+6. **Git**, **Github** for source code management.
+7. **Maven**
 
 I have used a factory design pattern for creating a retail store application. In factory design pattern we create an object without exposing the creation logic to the client and refer to a newly created object using a common interface.
 
