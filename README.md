@@ -18,12 +18,12 @@ Getting Started
 Requirements:
 Checkout code from below location
 
-git clone https://github.com/sheeraz21/Retail-Store.git
-cd Retail-Store
+git clone https://github.com/sheeraz21/Retail-Store.git 
+ cd Retail-Store
 
 Run Below Command 
-mvn install
-mvn clean
+1. mvn install
+2. mvn clean
 
 I have developed a retail store discount application for calculating the discount.
 
